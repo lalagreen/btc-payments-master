@@ -1,5 +1,7 @@
 var assert = require("assert");
 
+var { describe, test} = require('mocha');
+
 var btcPaymentsConfig = require('./config');
 console.log("BTCPayments config: \n",btcPaymentsConfig);
 var BTCPayments = null;
